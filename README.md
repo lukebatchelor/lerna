@@ -7,6 +7,10 @@
 </p>
 
 <p align="center">
+  <b>This is just a quick fork to be able to consume <a href="https://github.com/lerna/lerna/pull/940"> this pr</a> without waiting</b>
+</p>
+
+<p align="center">
   <a href="https://www.npmjs.com/package/lerna"><img alt="NPM Status" src="https://img.shields.io/npm/v/lerna.svg?style=flat"></a>
   <a href="https://travis-ci.org/lerna/lerna"><img alt="Travis Status" src="https://img.shields.io/travis/lerna/lerna/master.svg?style=flat&label=travis"></a>
   <a href="https://ci.appveyor.com/project/lerna/lerna/branch/master"><img alt="Appveyor Status" src="https://img.shields.io/appveyor/ci/lerna/lerna/master.svg"></a>
@@ -843,9 +847,9 @@ May also be configured in `lerna.json`:
 
 #### --use-workspaces
 
-Enables integration with [Yarn Workspaces](https://github.com/yarnpkg/rfcs/blob/master/implemented/0000-workspaces-install-phase-1.md) (available since yarn@0.27+).  
-The values in the array are the commands in which Lerna will delegate operation to Yarn (currently only bootstrapping).    
-If `--use-workspaces` is true then `packages` will be overridden by the value from `package.json/workspaces.`  
+Enables integration with [Yarn Workspaces](https://github.com/yarnpkg/rfcs/blob/master/implemented/0000-workspaces-install-phase-1.md) (available since yarn@0.27+).
+The values in the array are the commands in which Lerna will delegate operation to Yarn (currently only bootstrapping).
+If `--use-workspaces` is true then `packages` will be overridden by the value from `package.json/workspaces.`
 May also be configured in `lerna.json`:
 
 ```js
